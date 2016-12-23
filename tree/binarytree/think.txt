@@ -1,0 +1,20 @@
+思考二叉树的存储：
+
+	分析二叉树的节点结构：
+
+		1.每个节点有个数据域
+		2.每个节点有一个左子域和右子域
+		3.所有的子节点有一个双亲域
+
+	ADT:
+		node:{data:element, leftchildnode:pointer, rightchildnode:pointer, parentnode:pointer}
+
+		depth:3 
+
+		total:pow(2,3) - 1
+			
+		initialize
+
+		insert
+
+
